@@ -2,7 +2,7 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-  "Hello World"
+  "<h1> Dice Roll </h1>"
 end
 
 get("/zebra") do
